@@ -481,7 +481,34 @@ img {
 
 }
 
-.hover {
+
+.footer-socials-title {
+font-family: Roboto;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 2%;
+color: #FFFFFF;
+}
+
+.footer-socials-list {
+display: flex;
+width: 208;
+height: 40;
+top: 3296px;
+left: 540px;
+gap: 16px;
+}
+
+.socials-item {
+  background-color: #404BBF;
+  transition-property: background-color;
+}
+
+.socials-item:hover,
+.socials-item:focus {
+  background-color: #31D0AA;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
