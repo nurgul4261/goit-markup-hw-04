@@ -73,6 +73,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   gap: 40px;
   padding-right: 133px;
 }
+
 .list-item-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -145,8 +146,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   width: 1440px;
   height: 600px;
   margin: 0 auto;
-  
- 
 }
 
 .hero-button {
@@ -252,30 +251,33 @@ h1, h2, h3, h4, h5, h6, p, ul {
   width: 64px;
   height: 64px;
   top: 24px;
-  left: 100px;
+  left: 100px
 }
+
 
 .team-container {
-    display: flex;
-    align-self: flex-end;
-    justify-content: center;
-    padding-right: 156px;
-    padding-left: 156px;
-    gap: 32px;
-    border-radius: 4px;
-    padding-bottom: 32px;
-    padding-top: 232px;
-    background-color: #F4F4FD;
-    box-shadow: 0px 2px 1px 0px #2E2F4214;
-    max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  height: 780px;
+  padding-left: 156px;
+  padding-right: 156px;
+  background-color: #F4F4FD;
+  margin: 0 auto;
+  gap: 32px;
 }
 
-
-.team-section {
-  text-decoration: none;
- 
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1440px;
+  height: 780px;
+  padding-left: 156px;
+  padding-right: 156px;
 }
-
 
 .team-title {
 font-family: Roboto;
@@ -286,20 +288,10 @@ letter-spacing: 2%;
 text-align: center;
 padding-left: 639px;
 padding-right: 639px;
+weight: 162px;
+height: 40px;
+color: #2E2F42;
 }
-
-.team-icon-container {
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
-  width: 232;
-  height: 40;
- 
-
-}
-
 
 .team-list-item {
   font-family: Roboto;
@@ -322,10 +314,6 @@ padding-right: 639px;
   
 }
 
-img {
-  display: block;
-  max-width: 100%;
-}
 
 .team-role {
   font-family: Roboto;
@@ -338,6 +326,34 @@ img {
   gap: 8px;
 }
 
+.team-icon-container {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  width: 232;
+  height: 40;
+ 
+
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.portfolio {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1228px;
+  gap: 32px;
+  margin: 0 auto;
+  text-decoration: none;
+}
 
 .portfolio-list-container {
     display: flex;
@@ -349,6 +365,7 @@ img {
     flex-wrap: wrap;
     flex-shrink: 0;
     gap: 32px;
+    margin: 0 auto;
 }
 
 .portfolio-photo {
@@ -391,12 +408,11 @@ color: #F4F4FD;
     gap: 32px;
     background-color: #FFFFFF;
     max-width: 100%;
-    
+  
 }
 
 .portfolio-item-container {
     display: flex;
-    flex-direction: column;
     width: 360px;
     height: 120px;
     top: 300px;
@@ -413,7 +429,7 @@ color: #F4F4FD;
     border-color: #E7E9FC;
 }
 
-.section-1, .section-2 {
+.portfolio-list{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -421,15 +437,11 @@ color: #F4F4FD;
     height: 420px;
     padding-left: 156px;
     padding-right: 156px;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
 }
 
-.section-1 {
-  gap: 32px;
-}
-
-.section-2 {
-  gap: 32px;
-}
 
 .portfolio-title {
  font-family: Roboto;
