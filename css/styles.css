@@ -365,8 +365,8 @@ padding-top: 120px;
 .team-icon {
   fill: #f4f4fd;
   position: absolute;
-  margin-top: 12px;
-  margin-left: 17px;
+  width: 24px;
+  height: 24px;
 }
 
 .team-socials:hover,
@@ -616,8 +616,8 @@ img {
 .footer-icon {
   fill: #f4f4fd;
   position: absolute;
-  margin-top: 12px;
-  margin-left: 17px;
+  width: 24px;
+  height: 24px;
 }
 
 .socials-item {
